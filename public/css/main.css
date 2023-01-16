@@ -1996,8 +1996,6 @@ button,
       text-indent: 0;
       top: 0;
       width: inherit; }
-  #sidebar.inactive {
-    margin-left: -26em; }
   @media screen and (max-width: 1680px) {
     #sidebar {
       width: 24em; }
@@ -2015,9 +2013,7 @@ button,
         text-indent: 5em;
         width: 5em; }
         #sidebar .toggle:before {
-          font-size: 1.5rem; }
-      #sidebar.inactive {
-        margin-left: -24em; } }
+          font-size: 1.5rem; } }
   @media screen and (max-width: 1280px) {
     #sidebar {
       box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
@@ -2026,8 +2022,6 @@ button,
       position: fixed;
       top: 0;
       z-index: 10000; }
-      #sidebar.inactive {
-        box-shadow: none; }
       #sidebar > .inner {
         -webkit-overflow-scrolling: touch;
         height: 100%;

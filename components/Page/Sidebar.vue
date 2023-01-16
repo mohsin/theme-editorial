@@ -1,5 +1,12 @@
+<script setup lang="ts">
+const isToggled = ref(false)
+const toggleSidebar = () => {
+  isToggled.value = !isToggled.value
+}
+</script>
+
 <template>
-  <div id="sidebar">
+  <div id="sidebar" class="max-lg:shadow-none" :class="isToggled ? 'lg:ml-[-24em]' : 'ml-[-24em] lg:ml-0'">
     <div class="inner">
 
       <!-- Search -->
@@ -55,5 +62,6 @@
         </footer>
 
     </div>
+    <a @click="toggleSidebar" href="#sidebar" class="toggle">Toggle</a>
   </div>
 </template>

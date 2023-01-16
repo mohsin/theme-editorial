@@ -20,4 +20,21 @@ export default defineNuxtConfig({
       ]
     },
   },
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    config: {
+      content: [],
+      theme: {
+        screens: {
+          'xs': '480px',
+          'sm': '736px',
+          'md': '980px',
+          'lg': '1280px',
+          'xl': '1680px'
+        }
+      }
+    }
+  }
 })
