@@ -31,4 +31,4 @@ pnpm run build
 ```
 
 ## Credit ##
-This website template is a port of [HTML5 UP's Editorial] which is licensed under Creative Commons Attribution 3.0. Credit to the author for the original template.
+This website template is a port of [HTML5 UP's Editorial](https://html5up.net/editorial) which is licensed under Creative Commons Attribution 3.0. Credit to the author for the original template.
