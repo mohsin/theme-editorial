@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const app = useAppConfig()
 const isToggled = ref(false)
 const toggleSidebar = () => {
   isToggled.value = !isToggled.value
@@ -16,7 +17,13 @@ const toggleSidebar = () => {
           </form>
         </section>
 
-      <PageHeader />
+      <!-- Menu -->
+      <nav id="menu">
+        <header class="major">
+          <h2>Menu</h2>
+        </header>
+        <PageNavList :links="app.links" />
+      </nav>
 
       <!-- Section -->
         <section>
