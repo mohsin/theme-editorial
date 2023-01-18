@@ -2614,9 +2614,6 @@ button:disabled,
   top: 0;
   width: inherit;
 }
-#sidebar.inactive {
-  margin-left: -26em;
-}
 @media screen and (max-width: 1680px) {
   #sidebar {
     width: 24em;
@@ -2640,9 +2637,6 @@ button:disabled,
   #sidebar .toggle:before {
     font-size: 1.5rem;
   }
-  #sidebar.inactive {
-    margin-left: -24em;
-  }
 }
 @media screen and (max-width: 1280px) {
   #sidebar {
@@ -2652,9 +2646,6 @@ button:disabled,
     position: fixed;
     top: 0;
     z-index: 10000;
-  }
-  #sidebar.inactive {
-    box-shadow: none;
   }
   #sidebar > .inner {
     -webkit-overflow-scrolling: touch;

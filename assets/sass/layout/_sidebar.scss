@@ -114,10 +114,6 @@
 			}
 		}
 
-		&.inactive {
-			margin-left: (_size(sidebar-width) * -1);
-		}
-
 		@include breakpoint('<=xlarge') {
 			$pad: 1.5em / 0.9;
 
@@ -145,10 +141,6 @@
 					font-size: 1.5rem;
 				}
 			}
-
-			&.inactive {
-				margin-left: (_size(sidebar-width-alt) * -1);
-			}
 		}
 
 		@include breakpoint('<=large') {
@@ -158,10 +150,6 @@
 			position: fixed;
 			top: 0;
 			z-index: _misc(z-index-base);
-
-			&.inactive {
-				box-shadow: none;
-			}
 
 			> .inner {
 				-webkit-overflow-scrolling: touch;
