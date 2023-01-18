@@ -22,6 +22,13 @@ Start the development server on http://localhost:3000
 pnpm run dev
 ```
 
+Building Sass to CSS:
+You need `sass` to be installed globally for this command to work,
+```zsh
+pnpm buildcss
+```
+This also enters watch mode so it keeps updating main.css on changes to the sass styles until you exit the command.
+
 ## Production
 
 Build the application for production:
